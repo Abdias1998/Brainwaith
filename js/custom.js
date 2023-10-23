@@ -14,7 +14,7 @@ $(window).scroll(function () {
 var myCircle = Circles.create({
   id: "circles-1",
   radius: 65,
-  value: 5,
+  value: 100,
   maxValue: 100,
   width: 5,
   text: function (value) {
@@ -32,7 +32,7 @@ var myCircle = Circles.create({
 var myCircle = Circles.create({
   id: "circles-2",
   radius: 65,
-  value: 1,
+  value: 100,
   maxValue: 100,
   width: 5,
   text: function (value) {
@@ -50,7 +50,7 @@ var myCircle = Circles.create({
 var myCircle = Circles.create({
   id: "circles-3",
   radius: 65,
-  value: 1,
+  value: 100,
   maxValue: 100,
   width: 5,
   text: function (value) {
@@ -68,7 +68,7 @@ var myCircle = Circles.create({
 var myCircle = Circles.create({
   id: "circles-4",
   radius: 65,
-  value: 2,
+  value: 100,
   maxValue: 100,
   width: 5,
   text: function (value) {
