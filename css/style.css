@@ -3,7 +3,77 @@ body {
   color: #101010;
   background-color: #ffffff;
 }
+/* button devis */
+#devis {
+  margin-bottom: 10px;
+  border-color: transparent;
+  border-width: 1px;
+  border-radius: 4px;
+  color: white;
+  background-color: #0878a0;
+  padding: 6px;
+}
 
+/* menuburgerLogo */
+#menuburgerLogo {
+  display: none;
+}
+@media (max-width: 768px) {
+  #menuburgerLogo {
+    display: block;
+  }
+  .parentDevis {
+    flex-direction: column;
+  }
+  .childDevisOne,
+  .childDevisTwo,
+  .childDevisThree {
+    margin-top: 12px;
+  }
+}
+/* Devis section */
+.parentDevis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: auto;
+  margin: 5px auto;
+}
+
+.childDevisOne,
+.childDevisTwo {
+  background-color: #b2bbc4;
+  border-radius: 15px;
+}
+
+.childDevisTwo {
+  height: 550px;
+  background-color: #b2bbc4;
+  border-radius: 15px;
+}
+
+.landing {
+  background-color: #097a5a;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.landing h1 {
+  color: #e2821a;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.liste ul {
+  list-style: circle;
+  margin: 0;
+}
+.liste ul li {
+  padding: 15px;
+  font-size: 15px;
+}
 .layout_padding {
   padding: 75px 0;
 }
